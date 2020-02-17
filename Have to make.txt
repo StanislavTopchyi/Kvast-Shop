@@ -1,0 +1,4 @@
+- form actions;
+- why no icons from JS?;
+- review code;
+- spred svg;

@@ -1,0 +1,586 @@
+/* ***************************************Mobile ************************************/
+@media (min-width: 576px) {
+  /* ----------------Condition property ----------------*/
+  html,
+  body {
+    font-size: 70.3%; /* 18px */
+  }
+  body {
+    min-width: 720px;
+  }
+  .container {
+    width: 700px;
+  }
+  /*-------  modal window  -----------*/
+  .modal-order-form {
+    max-height: 620px;
+  }
+  .modal-order-form h2,
+  .modal-order-form .order-list .request-zero {
+    font-size: 2rem;
+  }
+  .modal-order-form h2:before,
+  .modal-order-form h2:after {
+    width: 3rem;
+    height: 3rem;
+  }
+  .modal-order-form p {
+    font-size: 1.2rem;
+    text-indent: 1.5rem;
+  }
+  .modal-order-form .order-form-group {
+    font-size: 1.2rem;
+  }
+  .modal-order-form .order-form-group input {
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    height: 1.8rem;
+  }
+  .modal-order-form .order-list {
+    max-height: 160px;
+  }
+  .modal-order-form .order-list .request-zero::before,
+  .modal-order-form .order-list .request-zero::after {
+    width: 3rem;
+    height: 3rem;
+    top: 60px;
+  }
+  .order-list .order-request,
+  .modal-order-form .total-price,
+  .modal-order-form .order-checkbox-area {
+    font-size: 1.2rem;
+  }
+  .modal-order-form .order-comment {
+    text-indent: 1.5rem;
+  }
+  .modal-order-form .order-checkbox-area input {
+    left: 25px;
+  }
+  .modal-order-form .submit-btn {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+  }
+  /* ------------------Header style ---------------------*/
+  header {
+    min-height: 350px;
+  }
+  .header-top nav .response-nav {
+    left: -155px;
+    width: 140px;
+  }
+  .response-nav li a {
+    font-size: 1.1rem;
+  }
+  .header-top .logo {
+    padding-top: 3rem;
+    width: 10rem;
+    height: 6rem;
+  }
+  .header-top .logo img {
+    width: 10rem;
+    height: 6rem;
+  }
+
+  /*---------------- <section class="new-products"> ----------------------*/
+  .new-products .new-products-slider .shop-item .bottle {
+    height: 11rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  /*-------------- <section class="history"> ----------*/
+  .history dl {
+    padding: 0 2rem;
+  }
+  .history dl dd {
+    min-height: 11rem;
+  }
+
+  /*-------- <section class="about-us"> ---------------*/
+  .about-us .container {
+    position: relative;
+  }
+  .about-us h2 {
+    padding: 2rem 3rem;
+  }
+  .about-us blockquote {
+    padding-left: 9rem;
+    text-indent: 0;
+    margin-bottom: 0.5rem;
+  }
+  .about-us blockquote:before {
+    display: block;
+    content: "";
+    position: absolute;
+    width: 4rem;
+    height: 4rem;
+    background: url("../img/quotes.png") no-repeat center;
+    left: 35px;
+    padding: 0.2rem;
+    border: 1px dotted rgba(133, 131, 131, 0.3);
+  }
+  .about-us .read-more {
+    font-size: 0.8rem;
+    line-height: 2.5rem;
+    margin-left: 12rem;
+  }
+  .about-us cite {
+    margin-right: 9rem;
+  }
+
+  /*----------- <section class="assortment"> ------------*/
+  .assortment h2 {
+    margin-bottom: 2rem;
+  }
+  .assortment table .table-name {
+    padding-left: 2rem;
+  }
+  .assortment table .table-price .item-new-price {
+    right: 25%;
+  }
+
+  /*----------- <section class="location"> --------------*/
+  .location .map {
+    height: 300px;
+  }
+  .location .map iframe {
+    height: 350px;
+  }
+
+  /*---------------------- footer -----------------------*/
+  footer {
+    padding: 3rem 2rem 2rem 2rem;
+  }
+  footer .footer-top .main-nav li a,
+  .footer-bottom p {
+    font-size: 1rem;
+  }
+  .footer-bottom .copyright img {
+    width: 32px;
+    height: 32px;
+    transform: translateX(-5px);
+  }
+  .footer-bottom .copyright b {
+    font-size: 1rem;
+  }
+  .footer-bottom .social {
+    padding-left: 1.5rem;
+  }
+  .footer-bottom .social a {
+    width: 28px;
+    height: 28px;
+  }
+}
+
+/************************************** Tablet *****************************************/
+@media (min-width: 992px) {
+  /* Condition property */
+  html,
+  body {
+    font-size: 80%; /* 20px */
+  }
+  body {
+    min-width: 1000px;
+  }
+  .container {
+    width: 950px;
+  }
+  /*-------  modal window  -----------*/
+  .modal-order-form {
+    max-height: 680px;
+  }
+  .modal-order-form p {
+    margin-bottom: 1rem;
+  }
+  .modal-order-form .order-form-group {
+    margin: 0.5rem 3rem;
+    width: 40%;
+    display: inline-block;
+  }
+  .modal-order-form .order-form-group input {
+    padding: 0 0 0 0.5rem;
+    width: 50%;
+  }
+  .modal-order-form .order-list {
+    margin: 0;
+    width: 100%;
+    max-height: 180px;
+  }
+  .modal-order-form .order-list .request-zero::before,
+  .modal-order-form .order-list .request-zero::after {
+    right: 20%;
+    top: 70px;
+  }
+  .modal-order-form .order-list .request-zero::after {
+    left: 20%;
+  }
+  .order-list .order-request {
+    margin: 0 auto;
+    width: 90%;
+    display: table;
+  }
+  .modal-order-form .total-price {
+    text-align: right;
+    margin-right: 5rem;
+    font-weight: bold;
+  }
+  .modal-order-form .total-price input {
+    font-weight: bold;
+  }
+  .modal-order-form .order-comment {
+    width: 100%;
+    margin: 0 auto 1rem auto;
+    text-align: center;
+  }
+  .modal-order-form .order-comment label {
+    float: left;
+    margin-left: 5rem;
+  }
+  .modal-order-form .order-comment textarea {
+    height: 6rem;
+    width: 90%;
+  }
+  .modal-order-form .order-checkbox-area {
+    margin: 0 auto;
+    padding-left: 7rem;
+    width: 25%;
+  }
+  .modal-order-form .order-checkbox-area input {
+    width: 2.5rem;
+    height: 2.5rem;
+    left: 40px;
+  }
+  .modal-order-form .submit-btn {
+    margin: 1rem 3.2rem 2rem 0;
+  }
+
+  /* ---------------Header style ---------------*/
+  header {
+    min-height: 450px;
+  }
+  .header-top nav .response-nav {
+    display: none;
+  }
+  .header-top nav {
+    padding: 3rem 0;
+  }
+  .header-top nav .main-nav {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 10rem;
+    margin-right: 1rem;
+    padding: 1rem 0;
+    box-shadow: 0 -20px 0 -18px rgba(255, 255, 255, 0.8),
+      0 20px 0 -18px rgba(255, 255, 255, 0.8);
+  }
+  .main-nav li {
+    position: relative;
+    width: 20%;
+    text-align: center;
+  }
+  .main-nav li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.7rem;
+    cursor: pointer;
+    text-shadow: 2px 2px 0 #000000;
+  }
+  .main-nav li a:before {
+    content: "";
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    top: -12px;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.3);
+    transition: 0.2s linear;
+    visibility: hidden;
+  }
+  .main-nav li a:hover:before {
+    height: 60px;
+    visibility: visible;
+  }
+  .main-nav li a:active:before {
+    background-color: rgba(225, 225, 225, 0.2);
+  }
+  .main-nav li a:active {
+    text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.5);
+  }
+  .header-top .logo {
+    float: left;
+    margin: 2rem 1rem;
+    padding: 0;
+    width: 10rem;
+    height: 6rem;
+  }
+  .header-top .logo img {
+    width: 10rem;
+    height: 6rem;
+  }
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  header .header-promo {
+    padding: 1rem 0;
+  }
+
+  /*---------------- <section class="new-products"> ----------------------*/
+  .new-products .new-products-slider .shop-item .bottle {
+    height: 13rem;
+    margin-top: 4rem;
+  }
+  .new-products .new-products-slider .shop-item h3 {
+    font-size: 2.2rem;
+  }
+  .new-products .new-products-slider .shop-item table {
+    font-size: 1.5rem;
+    text-shadow: 2px 2px 0 #000000;
+    margin-bottom: 2rem;
+  }
+  .new-products .new-products-slider .shop-item .item-buy {
+    border: 2px solid rgba(255, 255, 255, 1);
+    letter-spacing: 0.2rem;
+    font-size: 1.5rem;
+    padding: 0.7rem;
+    text-shadow: 2px 2px 0 #000000;
+  }
+  .new-products .new-products-slider .shop-item p {
+    font-size: 1.5rem;
+    text-shadow: 2px 2px 0 #000000;
+  }
+
+  /*-------- <section class="our-benefits"> ------------*/
+  .our-benefits .benefit li h2 {
+    font-size: 1.2rem;
+  }
+  .our-benefits .benefit li p {
+    font-size: 1.1rem;
+    text-indent: 1.3rem;
+  }
+
+  /*-------- <section class="history"> ------------------*/
+  .history dl dt {
+    font-size: 1.2rem;
+  }
+  .history dl dd {
+    font-size: 1.1rem;
+    text-indent: 1.3rem;
+    min-height: 12rem;
+  }
+
+  /*--------- <section class="about-us"> ----------------*/
+  .about-us blockquote {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+    padding-left: 10rem;
+  }
+  .about-us blockquote:before {
+    width: 5rem;
+    height: 5rem;
+  }
+  .about-us cite {
+    font-size: 1.2rem;
+  }
+  .about-us .read-more {
+    font-size: 1rem;
+    line-height: 3rem;
+    margin-left: 14rem;
+  }
+  .about-us cite {
+    margin-right: 9rem;
+  }
+
+  /*----------- <section class="assortment"> ------------*/
+  .assortment table,
+  .assortment table tr th,
+  .assortment table .table-value input {
+    font-size: 1.2rem;
+  }
+  .assortment table .table-alcohol-percent,
+  .assortment table .table-calories {
+    display: table-cell;
+  }
+  .assortment table .table-name,
+  .assortment table .table-ingredients {
+    width: 25%;
+  }
+  .assortment table .table-alcohol-percent,
+  .assortment table .table-calories,
+  .assortment table .table-value,
+  .assortment table .table-price {
+    width: 12.5%;
+  }
+  .assortment .total-price {
+    margin: 1rem 0 0 5rem;
+    font-size: 1.3rem;
+  }
+  .assortment .total-price input {
+    font-size: 1.3rem;
+  }
+  .assortment .make-order {
+    margin: 1rem 5rem 0 0;
+    height: 2.6rem;
+    font-size: 1rem;
+    letter-spacing: 0.2rem;
+  }
+  .assortment table .table-name .item-icon {
+    width: 3rem;
+    height: 3rem;
+  }
+  .assortment table .table-price .item-new-price {
+    right: 15%;
+  }
+
+  /*----------- <section class="location"> --------------*/
+  .location h2 {
+    padding: 2rem 3rem 2rem 3rem;
+  }
+  .location .address,
+  .location .contacts {
+    font-size: 1.2rem;
+  }
+  .location .map {
+    height: 350px;
+  }
+  .location .map iframe {
+    height: 400px;
+  }
+
+  /*---------------------- footer -----------------------*/
+  .footer-bottom .social {
+    padding-left: 2rem;
+  }
+  .footer-bottom .social a {
+    width: 32px;
+    height: 32px;
+  }
+}
+
+/* *****************************************  Laptop ***********************************/
+@media (min-width: 1200px) {
+  /* --------------Condition property --------------*/
+  body {
+    min-width: 1140px;
+  }
+  .container {
+    width: 1140px;
+  }
+  /*-------  modal window  -----------*/
+  .modal-order-form {
+    max-height: 670px;
+  }
+  .modal-order-form p {
+    font-size: 1.4rem;
+    text-indent: 3rem;
+  }
+  .modal-order-form .order-form-group,
+  .modal-order-form .order-form-group input,
+  .modal-order-form .total-price input,
+  .modal-order-form .order-comment textarea {
+    font-size: 1.4rem;
+  }
+  .modal-order-form .order-list {
+    max-height: 190px;
+  }
+  .modal-order-form .total-price {
+    font-size: 1.4rem;
+    margin-right: 6rem;
+  }
+  .modal-order-form .order-checkbox-area {
+    width: 16%;
+    padding-left: 10rem;
+  }
+  .modal-order-form .order-checkbox-area input {
+    left: 70px;
+  }
+  .modal-order-form .submit-btn {
+    margin-right: 6rem;
+  }
+
+  /*---------------- <section class="new-products"> ----------------------*/
+  .new-products .new-products-slider .shop-item .bottle {
+    height: 14rem;
+  }
+
+  /*------ <section class="our-benefits"> -----------*/
+  .our-benefits .benefit {
+    margin: 0 2rem 0 4rem;
+  }
+  .our-benefits .benefit li h2 {
+    letter-spacing: 0.2rem;
+    font-weight: bold;
+    font-size: 1.3rem;
+  }
+  .our-benefits .benefit li p {
+    font-size: 1.3rem;
+    text-indent: 1.5rem;
+  }
+
+  /*------- <section class="history"> --------------*/
+  .history h2 {
+    font-size: 2.2rem;
+  }
+  .history dl dt {
+    font-size: 1.2rem;
+    letter-spacing: 0.2rem;
+    font-size: 1.3rem;
+  }
+  .history dl dd {
+    font-size: 1.3rem;
+    text-indent: 1.5rem;
+    min-height: 14.5rem;
+  }
+
+  /*-------- <section class="about-us"> ------------*/
+  .about-us h2 {
+    font-size: 2.2rem;
+    padding-bottom: 2rem;
+  }
+  .about-us blockquote {
+    font-size: 1.3rem;
+  }
+  .about-us cite {
+    font-size: 1.2rem;
+  }
+  .about-us .read-more {
+    font-size: 1.1rem;
+    line-height: 3.5rem;
+  }
+
+  /*----------- <section class="assortment"> ------------*/
+  .assortment h2 {
+    font-size: 2.2rem;
+  }
+  .assortment table,
+  .assortment table tr th,
+  .assortment table .table-value input {
+    font-size: 1.3rem;
+  }
+  .assortment .total-price input {
+    padding: 0.8rem 1rem;
+  }
+  .assortment .make-order {
+    height: 3.1rem;
+    font-size: 1.2rem;
+    line-height: 3rem;
+  }
+
+  /*----------- <section class="location"> --------------*/
+  .location h2 {
+    font-size: 2.2rem;
+  }
+  .location .address,
+  .location .contacts {
+    font-size: 1.3rem;
+  }
+  .location .map {
+    height: 400px;
+  }
+  .location .map iframe {
+    height: 450px;
+  }
+
+  /*---------------------- footer -----------------------*/
+}
